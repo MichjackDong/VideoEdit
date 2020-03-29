@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E59410924305611001B7154 /* HDAddWaterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E59410824305611001B7154 /* HDAddWaterCommand.m */; };
+		2E59410B243060BA001B7154 /* timg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E59410A243060BA001B7154 /* timg.jpg */; };
+		2E59410E24306E80001B7154 /* HDRoateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E59410D24306E80001B7154 /* HDRoateCommand.m */; };
+		2E594111243070B2001B7154 /* HDReplaceMusicCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E594110243070B2001B7154 /* HDReplaceMusicCommand.m */; };
+		2E59411424307698001B7154 /* HDMixMusicCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E59411324307698001B7154 /* HDMixMusicCommand.m */; };
+		2E594117243079C8001B7154 /* HDVideoSpeedCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E594116243079C8001B7154 /* HDVideoSpeedCommand.m */; };
+		2E59411A24309A9A001B7154 /* test1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2E59411924309A99001B7154 /* test1.mp4 */; };
+		2E6152EF242F51F9000979CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6152EE242F51F9000979CB /* AppDelegate.m */; };
+		2E6152F5242F51F9000979CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6152F4242F51F9000979CB /* ViewController.m */; };
+		2E6152F8242F51F9000979CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6152F6242F51F9000979CB /* Main.storyboard */; };
+		2E6152FA242F51FD000979CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6152F9242F51FD000979CB /* Assets.xcassets */; };
+		2E6152FD242F51FD000979CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6152FB242F51FD000979CB /* LaunchScreen.storyboard */; };
+		2E615300242F51FD000979CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6152FF242F51FD000979CB /* main.m */; };
+		2E615308242F5686000979CB /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E615307242F5686000979CB /* PlayViewController.m */; };
+		2E61530C242F587A000979CB /* HDAVSECommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E61530B242F587A000979CB /* HDAVSECommand.m */; };
+		2E615312242F5CEE000979CB /* HDCommandParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E615311242F5CEE000979CB /* HDCommandParams.m */; };
+		2E615315242F6943000979CB /* HDAVSERangeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E615314242F6943000979CB /* HDAVSERangeCommand.m */; };
+		2E615318242F6B1D000979CB /* HDExportCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E615317242F6B1D000979CB /* HDExportCommand.m */; };
+		2E61531F242F8571000979CB /* test3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2E61531A242F8571000979CB /* test3.mp4 */; };
+		2E615321242F8571000979CB /* nature.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2E61531C242F8571000979CB /* nature.mp4 */; };
+		2E615323242F8571000979CB /* test2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2E61531E242F8571000979CB /* test2.mp4 */; };
+		2E615326242F85BA000979CB /* HDVideoHanderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E615325242F85BA000979CB /* HDVideoHanderTool.m */; };
+		2E615329242F85FF000979CB /* HDCommandModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E615328242F85FF000979CB /* HDCommandModel.m */; };
+		2E61532C242F8C46000979CB /* HDAVSEVideoMixCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E61532B242F8C46000979CB /* HDAVSEVideoMixCommand.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E59410724305611001B7154 /* HDAddWaterCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDAddWaterCommand.h; sourceTree = "<group>"; };
+		2E59410824305611001B7154 /* HDAddWaterCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDAddWaterCommand.m; sourceTree = "<group>"; };
+		2E59410A243060BA001B7154 /* timg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpg; sourceTree = "<group>"; };
+		2E59410C24306E80001B7154 /* HDRoateCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDRoateCommand.h; sourceTree = "<group>"; };
+		2E59410D24306E80001B7154 /* HDRoateCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDRoateCommand.m; sourceTree = "<group>"; };
+		2E59410F243070B2001B7154 /* HDReplaceMusicCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDReplaceMusicCommand.h; sourceTree = "<group>"; };
+		2E594110243070B2001B7154 /* HDReplaceMusicCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDReplaceMusicCommand.m; sourceTree = "<group>"; };
+		2E59411224307698001B7154 /* HDMixMusicCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDMixMusicCommand.h; sourceTree = "<group>"; };
+		2E59411324307698001B7154 /* HDMixMusicCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDMixMusicCommand.m; sourceTree = "<group>"; };
+		2E594115243079C8001B7154 /* HDVideoSpeedCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDVideoSpeedCommand.h; sourceTree = "<group>"; };
+		2E594116243079C8001B7154 /* HDVideoSpeedCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDVideoSpeedCommand.m; sourceTree = "<group>"; };
+		2E59411924309A99001B7154 /* test1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test1.mp4; sourceTree = "<group>"; };
+		2E6152EA242F51F9000979CB /* iOSVideoAudioEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSVideoAudioEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6152ED242F51F9000979CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E6152EE242F51F9000979CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E6152F3242F51F9000979CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E6152F4242F51F9000979CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E6152F7242F51F9000979CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E6152F9242F51FD000979CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E6152FC242F51FD000979CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E6152FE242F51FD000979CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6152FF242F51FD000979CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E615306242F5686000979CB /* PlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		2E615307242F5686000979CB /* PlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		2E61530A242F587A000979CB /* HDAVSECommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDAVSECommand.h; sourceTree = "<group>"; };
+		2E61530B242F587A000979CB /* HDAVSECommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDAVSECommand.m; sourceTree = "<group>"; };
+		2E615310242F5CEE000979CB /* HDCommandParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDCommandParams.h; sourceTree = "<group>"; };
+		2E615311242F5CEE000979CB /* HDCommandParams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDCommandParams.m; sourceTree = "<group>"; };
+		2E615313242F6943000979CB /* HDAVSERangeCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDAVSERangeCommand.h; sourceTree = "<group>"; };
+		2E615314242F6943000979CB /* HDAVSERangeCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDAVSERangeCommand.m; sourceTree = "<group>"; };
+		2E615316242F6B1D000979CB /* HDExportCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDExportCommand.h; sourceTree = "<group>"; };
+		2E615317242F6B1D000979CB /* HDExportCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDExportCommand.m; sourceTree = "<group>"; };
+		2E61531A242F8571000979CB /* test3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test3.mp4; sourceTree = "<group>"; };
+		2E61531C242F8571000979CB /* nature.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nature.mp4; sourceTree = "<group>"; };
+		2E61531E242F8571000979CB /* test2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test2.mp4; sourceTree = "<group>"; };
+		2E615324242F85BA000979CB /* HDVideoHanderTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDVideoHanderTool.h; sourceTree = "<group>"; };
+		2E615325242F85BA000979CB /* HDVideoHanderTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDVideoHanderTool.m; sourceTree = "<group>"; };
+		2E615327242F85FF000979CB /* HDCommandModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDCommandModel.h; sourceTree = "<group>"; };
+		2E615328242F85FF000979CB /* HDCommandModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDCommandModel.m; sourceTree = "<group>"; };
+		2E61532A242F8C46000979CB /* HDAVSEVideoMixCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDAVSEVideoMixCommand.h; sourceTree = "<group>"; };
+		2E61532B242F8C46000979CB /* HDAVSEVideoMixCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDAVSEVideoMixCommand.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E6152E7242F51F9000979CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E6152E1242F51F9000979CB = {
+			isa = PBXGroup;
+			children = (
+				2E6152EC242F51F9000979CB /* iOSVideoAudioEditor */,
+				2E6152EB242F51F9000979CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E6152EB242F51F9000979CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E6152EA242F51F9000979CB /* iOSVideoAudioEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E6152EC242F51F9000979CB /* iOSVideoAudioEditor */ = {
+			isa = PBXGroup;
+			children = (
+				2E615324242F85BA000979CB /* HDVideoHanderTool.h */,
+				2E615325242F85BA000979CB /* HDVideoHanderTool.m */,
+				2E615327242F85FF000979CB /* HDCommandModel.h */,
+				2E615328242F85FF000979CB /* HDCommandModel.m */,
+				2E615319242F8534000979CB /* Resource */,
+				2E615309242F5849000979CB /* Tools */,
+				2E6152ED242F51F9000979CB /* AppDelegate.h */,
+				2E6152EE242F51F9000979CB /* AppDelegate.m */,
+				2E6152F3242F51F9000979CB /* ViewController.h */,
+				2E6152F4242F51F9000979CB /* ViewController.m */,
+				2E615306242F5686000979CB /* PlayViewController.h */,
+				2E615307242F5686000979CB /* PlayViewController.m */,
+				2E6152F6242F51F9000979CB /* Main.storyboard */,
+				2E6152F9242F51FD000979CB /* Assets.xcassets */,
+				2E6152FB242F51FD000979CB /* LaunchScreen.storyboard */,
+				2E6152FE242F51FD000979CB /* Info.plist */,
+				2E6152FF242F51FD000979CB /* main.m */,
+			);
+			path = iOSVideoAudioEditor;
+			sourceTree = "<group>";
+		};
+		2E615309242F5849000979CB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2E615310242F5CEE000979CB /* HDCommandParams.h */,
+				2E615311242F5CEE000979CB /* HDCommandParams.m */,
+				2E61530A242F587A000979CB /* HDAVSECommand.h */,
+				2E61530B242F587A000979CB /* HDAVSECommand.m */,
+				2E615313242F6943000979CB /* HDAVSERangeCommand.h */,
+				2E615314242F6943000979CB /* HDAVSERangeCommand.m */,
+				2E59410724305611001B7154 /* HDAddWaterCommand.h */,
+				2E59410824305611001B7154 /* HDAddWaterCommand.m */,
+				2E59410C24306E80001B7154 /* HDRoateCommand.h */,
+				2E59410D24306E80001B7154 /* HDRoateCommand.m */,
+				2E59410F243070B2001B7154 /* HDReplaceMusicCommand.h */,
+				2E594110243070B2001B7154 /* HDReplaceMusicCommand.m */,
+				2E59411224307698001B7154 /* HDMixMusicCommand.h */,
+				2E59411324307698001B7154 /* HDMixMusicCommand.m */,
+				2E594115243079C8001B7154 /* HDVideoSpeedCommand.h */,
+				2E594116243079C8001B7154 /* HDVideoSpeedCommand.m */,
+				2E615316242F6B1D000979CB /* HDExportCommand.h */,
+				2E615317242F6B1D000979CB /* HDExportCommand.m */,
+				2E61532A242F8C46000979CB /* HDAVSEVideoMixCommand.h */,
+				2E61532B242F8C46000979CB /* HDAVSEVideoMixCommand.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2E615319242F8534000979CB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2E59411924309A99001B7154 /* test1.mp4 */,
+				2E61531C242F8571000979CB /* nature.mp4 */,
+				2E61531E242F8571000979CB /* test2.mp4 */,
+				2E61531A242F8571000979CB /* test3.mp4 */,
+				2E59410A243060BA001B7154 /* timg.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E6152E9242F51F9000979CB /* iOSVideoAudioEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E615303242F51FD000979CB /* Build configuration list for PBXNativeTarget "iOSVideoAudioEditor" */;
+			buildPhases = (
+				2E6152E6242F51F9000979CB /* Sources */,
+				2E6152E7242F51F9000979CB /* Frameworks */,
+				2E6152E8242F51F9000979CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSVideoAudioEditor;
+			productName = iOSVideoAudioEditor;
+			productReference = 2E6152EA242F51F9000979CB /* iOSVideoAudioEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E6152E2242F51F9000979CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HD;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = jackDong;
+				TargetAttributes = {
+					2E6152E9242F51F9000979CB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2E6152E5242F51F9000979CB /* Build configuration list for PBXProject "iOSVideoAudioEditor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E6152E1242F51F9000979CB;
+			productRefGroup = 2E6152EB242F51F9000979CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E6152E9242F51F9000979CB /* iOSVideoAudioEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E6152E8242F51F9000979CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E615321242F8571000979CB /* nature.mp4 in Resources */,
+				2E59411A24309A9A001B7154 /* test1.mp4 in Resources */,
+				2E6152FD242F51FD000979CB /* LaunchScreen.storyboard in Resources */,
+				2E615323242F8571000979CB /* test2.mp4 in Resources */,
+				2E6152FA242F51FD000979CB /* Assets.xcassets in Resources */,
+				2E59410B243060BA001B7154 /* timg.jpg in Resources */,
+				2E6152F8242F51F9000979CB /* Main.storyboard in Resources */,
+				2E61531F242F8571000979CB /* test3.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E6152E6242F51F9000979CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E615308242F5686000979CB /* PlayViewController.m in Sources */,
+				2E59411424307698001B7154 /* HDMixMusicCommand.m in Sources */,
+				2E615318242F6B1D000979CB /* HDExportCommand.m in Sources */,
+				2E594117243079C8001B7154 /* HDVideoSpeedCommand.m in Sources */,
+				2E6152F5242F51F9000979CB /* ViewController.m in Sources */,
+				2E615326242F85BA000979CB /* HDVideoHanderTool.m in Sources */,
+				2E6152EF242F51F9000979CB /* AppDelegate.m in Sources */,
+				2E59410924305611001B7154 /* HDAddWaterCommand.m in Sources */,
+				2E594111243070B2001B7154 /* HDReplaceMusicCommand.m in Sources */,
+				2E615312242F5CEE000979CB /* HDCommandParams.m in Sources */,
+				2E615300242F51FD000979CB /* main.m in Sources */,
+				2E615329242F85FF000979CB /* HDCommandModel.m in Sources */,
+				2E59410E24306E80001B7154 /* HDRoateCommand.m in Sources */,
+				2E61532C242F8C46000979CB /* HDAVSEVideoMixCommand.m in Sources */,
+				2E615315242F6943000979CB /* HDAVSERangeCommand.m in Sources */,
+				2E61530C242F587A000979CB /* HDAVSECommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E6152F6242F51F9000979CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E6152F7242F51F9000979CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E6152FB242F51FD000979CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E6152FC242F51FD000979CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E615301242F51FD000979CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E615302242F51FD000979CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E615304242F51FD000979CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T949G96858;
+				INFOPLIST_FILE = iOSVideoAudioEditor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redwood.iot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E615305242F51FD000979CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T949G96858;
+				INFOPLIST_FILE = iOSVideoAudioEditor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redwood.iot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E6152E5242F51F9000979CB /* Build configuration list for PBXProject "iOSVideoAudioEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E615301242F51FD000979CB /* Debug */,
+				2E615302242F51FD000979CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E615303242F51FD000979CB /* Build configuration list for PBXNativeTarget "iOSVideoAudioEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E615304242F51FD000979CB /* Debug */,
+				2E615305242F51FD000979CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E6152E2242F51F9000979CB /* Project object */;
+}
